@@ -4,6 +4,38 @@
   
   
   <entry>
+    <title>为自己的博客添加哀悼日变黑白插件</title>
+    <link href="/2022/08/19/memorial-day/"/>
+    <url>/2022/08/19/memorial-day/</url>
+    
+    <content type="html"><![CDATA[<p>哀悼日让自己的博客变为黑白，如下图。<br><img src="https://pic.imgdb.cn/item/62ff282a16f2c2beb10aae2e.jpg" alt="正常"></p><p><img src="https://pic.imgdb.cn/item/62ff283716f2c2beb10aba56.jpg" alt="开启插件后"></p><!-- toc --><ul><li><a href="#1%E5%AE%89%E8%A3%85">1.安装</a></li><li><a href="#2%E9%85%8D%E7%BD%AE">2.配置</a></li></ul><!-- tocstop --><h1><span id="1安装">1.安装</span></h1><figure class="highlight plaintext"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><code class="hljs 插件">npm i hexo-memorial-day --save<br></code></pre></td></tr></table></figure><p>如何您在国内，我推荐您换源。虽然这个插件很小，但换源后为您以后插件安装更快</p><figure class="highlight plaintext"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><code class="hljs 换源">npm config set registry https://registry.npmmirror.com <br></code></pre></td></tr></table></figure><h1><span id="2配置">2.配置</span></h1><p>安装好后我们需要进行配置。</p><p>修改blog根目录_config.yml文件</p><p><strong>注: 这是blog的根目录不是主题里面的_config.yml，这俩有区别</strong></p><p>添加一下代码</p><figure class="highlight plaintext"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br></pre></td><td class="code"><pre><code class="hljs 代码">memorial_day:<br>  # Better to close it when it is not used<br>  enable: true<br>  # Specified date will be greyed, you can set yyyy-MM-dd or MM-dd<br>  day: 04-04<br></code></pre></td></tr></table></figure><p>以下是对代码解读</p><p>enable是否激活，false是不激活，true是激活。</p><p>day是日期，格式为yyyy为year是年，MM为month是月，dd为day是日。</p>]]></content>
+    
+    
+    
+    <tags>
+      
+      <tag>插件</tag>
+      
+    </tags>
+    
+  </entry>
+  
+  
+  
+  <entry>
+    <title>Hello World</title>
+    <link href="/2022/08/19/hello-world/"/>
+    <url>/2022/08/19/hello-world/</url>
+    
+    <content type="html"><![CDATA[<p>Welcome to <a href="https://hexo.io/">Hexo</a>! This is your very first post. Check <a href="https://hexo.io/docs/">documentation</a> for more info. If you get any problems when using Hexo, you can find the answer in <a href="https://hexo.io/docs/troubleshooting.html">troubleshooting</a> or you can ask me on <a href="https://github.com/hexojs/hexo/issues">GitHub</a>.</p><h2><span id="quick-start">Quick Start</span></h2><h3><span id="create-a-new-post">Create a new post</span></h3><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><code class="hljs bash">$ hexo new <span class="hljs-string">&quot;My New Post&quot;</span><br></code></pre></td></tr></table></figure><p>More info: <a href="https://hexo.io/docs/writing.html">Writing</a></p><h3><span id="run-server">Run server</span></h3><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><code class="hljs bash">$ hexo server<br></code></pre></td></tr></table></figure><p>More info: <a href="https://hexo.io/docs/server.html">Server</a></p><h3><span id="generate-static-files">Generate static files</span></h3><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><code class="hljs bash">$ hexo generate<br></code></pre></td></tr></table></figure><p>More info: <a href="https://hexo.io/docs/generating.html">Generating</a></p><h3><span id="deploy-to-remote-sites">Deploy to remote sites</span></h3><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><code class="hljs bash">$ hexo deploy<br></code></pre></td></tr></table></figure><p>More info: <a href="https://hexo.io/docs/one-command-deployment.html">Deployment</a></p><p><img src="https://miku12.coding.net/p/photo/d/photobed/git/raw/master/img/2474_origin_Screenshot_2022-08-19-08-51-12-269_com.yujian.ResideMenuDemo.jpg" alt="hello"></p>]]></content>
+    
+    
+    
+  </entry>
+  
+  
+  
+  <entry>
     <title>Termux搭建Hexo并部署</title>
     <link href="/2022/08/18/installhexo/"/>
     <url>/2022/08/18/installhexo/</url>
@@ -17,19 +49,6 @@
       <tag>hexo</tag>
       
     </tags>
-    
-  </entry>
-  
-  
-  
-  <entry>
-    <title>Hello World</title>
-    <link href="/2022/08/17/hello-world/"/>
-    <url>/2022/08/17/hello-world/</url>
-    
-    <content type="html"><![CDATA[<p>Welcome to <a href="https://hexo.io/">Hexo</a>! This is your very first post. Check <a href="https://hexo.io/docs/">documentation</a> for more info. If you get any problems when using Hexo, you can find the answer in <a href="https://hexo.io/docs/troubleshooting.html">troubleshooting</a> or you can ask me on <a href="https://github.com/hexojs/hexo/issues">GitHub</a>.</p><h2><span id="quick-start">Quick Start</span></h2><h3><span id="create-a-new-post">Create a new post</span></h3><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><code class="hljs bash">$ hexo new <span class="hljs-string">&quot;My New Post&quot;</span><br></code></pre></td></tr></table></figure><p>More info: <a href="https://hexo.io/docs/writing.html">Writing</a></p><h3><span id="run-server">Run server</span></h3><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><code class="hljs bash">$ hexo server<br></code></pre></td></tr></table></figure><p>More info: <a href="https://hexo.io/docs/server.html">Server</a></p><h3><span id="generate-static-files">Generate static files</span></h3><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><code class="hljs bash">$ hexo generate<br></code></pre></td></tr></table></figure><p>More info: <a href="https://hexo.io/docs/generating.html">Generating</a></p><h3><span id="deploy-to-remote-sites">Deploy to remote sites</span></h3><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><code class="hljs bash">$ hexo deploy<br></code></pre></td></tr></table></figure><p>More info: <a href="https://hexo.io/docs/one-command-deployment.html">Deployment</a></p>]]></content>
-    
-    
     
   </entry>
   
