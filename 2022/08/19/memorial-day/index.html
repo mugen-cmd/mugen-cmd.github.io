@@ -44,12 +44,12 @@
   <meta name="author" content="瘦肉炒肥肉">
   <meta name="keywords" content="博客">
   
-    <meta name="description" content="哀悼日让自己的博客变为黑白，如下图。     1.安装 2.配置    1.安装1npm i hexo-memorial-day --save  如何您在国内，我推荐您换源。虽然这个插件很小，但换源后为您以后插件安装更快 1npm config set registry https:&#x2F;&#x2F;registry.npmmirror.com   2.配置安装好后我们需要进行配置。 修改blog根目录_con">
+    <meta name="description" content="哀悼日让自己的博客变为黑白，如下图。     1.安装 2.配置   1.安装 1npm i hexo-memorial-day --save 如何您在国内，我推荐您换源。虽然这个插件很小，但换源后为您以后插件安装更快 1npm config set registry https:&#x2F;&#x2F;registry.npmmirror.com  2.配置 安装好后我们需要进行配置。 修改blog根目录_conf">
 <meta property="og:type" content="article">
 <meta property="og:title" content="为自己的博客添加哀悼日变黑白插件">
 <meta property="og:url" content="https://mugen-cmd.github.io/2022/08/19/memorial-day/index.html">
 <meta property="og:site_name" content="Blog">
-<meta property="og:description" content="哀悼日让自己的博客变为黑白，如下图。     1.安装 2.配置    1.安装1npm i hexo-memorial-day --save  如何您在国内，我推荐您换源。虽然这个插件很小，但换源后为您以后插件安装更快 1npm config set registry https:&#x2F;&#x2F;registry.npmmirror.com   2.配置安装好后我们需要进行配置。 修改blog根目录_con">
+<meta property="og:description" content="哀悼日让自己的博客变为黑白，如下图。     1.安装 2.配置   1.安装 1npm i hexo-memorial-day --save 如何您在国内，我推荐您换源。虽然这个插件很小，但换源后为您以后插件安装更快 1npm config set registry https:&#x2F;&#x2F;registry.npmmirror.com  2.配置 安装好后我们需要进行配置。 修改blog根目录_conf">
 <meta property="og:locale" content="zh_CN">
 <meta property="og:image" content="https://pic.imgdb.cn/item/62ff282a16f2c2beb10aae2e.jpg">
 <meta property="og:image" content="https://pic.imgdb.cn/item/62ff283716f2c2beb10aba56.jpg">
@@ -333,27 +333,25 @@
             
               <div class="markdown-body">
                 
-                <p>哀悼日让自己的博客变为黑白，如下图。<br><img src="https://pic.imgdb.cn/item/62ff282a16f2c2beb10aae2e.jpg" srcset="/img/loading.gif" lazyload alt="正常"></p>
+                <p>哀悼日让自己的博客变为黑白，如下图。<br>
+<img src="https://pic.imgdb.cn/item/62ff282a16f2c2beb10aae2e.jpg" srcset="/img/loading.gif" lazyload alt="正常"></p>
 <p><img src="https://pic.imgdb.cn/item/62ff283716f2c2beb10aba56.jpg" srcset="/img/loading.gif" lazyload alt="开启插件后"></p>
 <!-- toc -->
-
 <ul>
 <li><a href="#1%E5%AE%89%E8%A3%85">1.安装</a></li>
 <li><a href="#2%E9%85%8D%E7%BD%AE">2.配置</a></li>
 </ul>
 <!-- tocstop -->
-
-<h1><span id="1安装">1.安装</span></h1><figure class="highlight plaintext"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><code class="hljs 插件">npm i hexo-memorial-day --save<br></code></pre></td></tr></table></figure>
-
+<h1><span id="1安装">1.安装</span></h1>
+<figure class="highlight plaintext"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><code class="hljs 插件">npm i hexo-memorial-day --save<br></code></pre></td></tr></table></figure>
 <p>如何您在国内，我推荐您换源。虽然这个插件很小，但换源后为您以后插件安装更快</p>
 <figure class="highlight plaintext"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><code class="hljs 换源">npm config set registry https://registry.npmmirror.com <br></code></pre></td></tr></table></figure>
-
-<h1><span id="2配置">2.配置</span></h1><p>安装好后我们需要进行配置。</p>
+<h1><span id="2配置">2.配置</span></h1>
+<p>安装好后我们需要进行配置。</p>
 <p>修改blog根目录_config.yml文件</p>
 <p><strong>注: 这是blog的根目录不是主题里面的_config.yml，这俩有区别</strong></p>
 <p>添加一下代码</p>
 <figure class="highlight plaintext"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br></pre></td><td class="code"><pre><code class="hljs 代码">memorial_day:<br>  # Better to close it when it is not used<br>  enable: true<br>  # Specified date will be greyed, you can set yyyy-MM-dd or MM-dd<br>  day: 04-04<br></code></pre></td></tr></table></figure>
-
 <p>以下是对代码解读</p>
 <p>enable是否激活，false是不激活，true是激活。</p>
 <p>day是日期，格式为yyyy为year是年，MM为month是月，dd为day是日。</p>
