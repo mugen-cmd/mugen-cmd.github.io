@@ -4,11 +4,30 @@
   
   
   <entry>
-    <title>photobed</title>
+    <title>创建图床2</title>
+    <link href="/2022/08/26/photobed2/"/>
+    <url>/2022/08/26/photobed2/</url>
+    
+    <content type="html"><![CDATA[<p>上篇是在开玩笑，不过请不要把重要的东西放在您的图床，容易泄露东西。</p><h1><span id="创建仓库">创建仓库</span></h1><p>登录<a href="https://github.com">Github</a><sup id="fnref:1"><a href="#fn:1" rel="footnote">1</a></sup>，点击+号选择New repository。</p><p><img src="https://gcore.jsdelivr.net/gh/mugen-cmd/photobed@master/hexo/6754_origin_Screenshot_2022-08-26-15-10-06-901_com.yujian.ResideMenuDemo.jpg" alt></p><p>名字随便，<strong>仓库必须为公开</strong>然后点Create repository，恭喜您仓库创建好了，您可以进行下一步了。</p><h1><span id="配置">配置</span></h1><p>我目前在手机端使用的是<a href="https://github.com/PicGo/flutter-picgo">Flutter-PicGo</a> 安装好后进去APP点设置，图床设置，选择github图床。<br><img src="https://gcore.jsdelivr.net/gh/mugen-cmd/photobed@master/hexo/6755_origin_Screenshot_2022-08-26-15-18-32-818_com.siyee.flutterpicgo.jpg" alt><br>其中分支是Master，然后输入您的仓库名比如: 您的用户名/仓库名。设定Token就是您的Token<sup id="fnref:2"><a href="#fn:2" rel="footnote">2</a></sup>。恭喜您，您的图床创建好了，您会上传图片然后分享结果打不开。这是正常的因为 <a href="http://raw.githubusercontent.com">raw.githubusercontent.com</a> 这个域名被墙了所以国内不能访问，想要在国内访问必须套CDN，不过目前以下CDN会跳转 <a href="http://raw.githubusercontent.com">raw.githubusercontent.com</a></p><p><a href="cdn.jsdelivr.net">jsdelivr</a></p><p><a href="fastly.jsdelivr.net">fastly jsdelivr</a></p><p><a href="originfastly.jsdelivr.net">originfastly jsdelivr</a></p><p><a href="quantil.jsdelivr.net">quantil jsdelivr</a></p><p>目前只有<a href="gcore.jsdelivr.net">gcore jsdelivr</a>不会跳转到 <a href="http://raw.githubusercontent.com">raw.githubusercontent.com</a> 。</p><p>那怎么配置呢，其实很简单</p><figure class="highlight awk"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><code class="hljs awk">https:<span class="hljs-regexp">//g</span>core.jsdelivr.net<span class="hljs-regexp">/gh/</span>您的用户名<span class="hljs-regexp">/您的仓库名@master/</span><br></code></pre></td></tr></table></figure><p>然后加入到设定自定义域名里面，然后您上传完国内可以访问了。</p><div id="footnotes"><hr><div id="footnotelist"><ol style="list-style:none; padding-left: 0;"><li id="fn:1"><span style="display: inline-block; vertical-align: top; padding-right: 10px;">1.</span><span style="display: inline-block; vertical-align: top;">有些地区打不开，请科学上网</span><a href="#fnref:1" rev="footnote"> ↩</a></li><li id="fn:2"><span style="display: inline-block; vertical-align: top; padding-right: 10px;">2.</span><span style="display: inline-block; vertical-align: top;">如果不知道怎么获取Token请看这篇文章<a href="https://mugen-cmd.github.io/2022/08/18/installhexo/">点我</a>这里面的第四个是讲解如何获取Token</span><a href="#fnref:2" rev="footnote"> ↩</a></li></ol></div></div>]]></content>
+    
+    
+    
+    <tags>
+      
+      <tag>hexo</tag>
+      
+    </tags>
+    
+  </entry>
+  
+  
+  
+  <entry>
+    <title>搭建图床1</title>
     <link href="/2022/08/26/photobed/"/>
     <url>/2022/08/26/photobed/</url>
     
-    <content type="html"><![CDATA[<p>在搭建完hexo后，您想快乐的写作就必须要学会Markdown语法，当您学会后您想发图片就会用到图床，但有些图床不安全会泄露个人信息所以我们自己搭建。<br>实际上您自己搭建的也容易泄露，只要别人发现您的图床地址</p><h1><span id="搭建教程">搭建教程</span></h1><p>请您善用搜索，咕果一下就行了。</p><p>本次教程结束</p>]]></content>
+    <content type="html"><![CDATA[<p>在搭建完hexo后，您想快乐的写作就必须要学会Markdown语法，当您学会后您想发图片就会用到图床，但有些图床不安全会泄露个人信息所以我们自己搭建。<br>实际上您自己搭建的也容易泄露，只要别人发现您的图床地址</p><h1><span id="搭建教程">搭建教程</span></h1><p>请您善用搜索，咕果一下就行了。</p><p>请看转移到这篇文章</p><p><a href="https://mugen-cmd.github.io/2022/08/26/photobed2/">点我</a></p>]]></content>
     
     
     
