@@ -85,7 +85,7 @@
 
   <url>
     <loc>https://mugen-cmd.github.io/</loc>
-    <lastmod>2022-08-26</lastmod>
+    <lastmod>2022-08-28</lastmod>
     <changefreq>daily</changefreq>
     <priority>1.0</priority>
   </url>
@@ -93,35 +93,35 @@
   
   <url>
     <loc>https://mugen-cmd.github.io/tags/cc%E5%8D%8F%E8%AE%AE/</loc>
-    <lastmod>2022-08-26</lastmod>
+    <lastmod>2022-08-28</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.2</priority>
   </url>
   
   <url>
     <loc>https://mugen-cmd.github.io/tags/hexo/</loc>
-    <lastmod>2022-08-26</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.2</priority>
-  </url>
-  
-  <url>
-    <loc>https://mugen-cmd.github.io/tags/%E6%B5%8B%E8%AF%95/</loc>
-    <lastmod>2022-08-26</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.2</priority>
-  </url>
-  
-  <url>
-    <loc>https://mugen-cmd.github.io/tags/%E5%AE%9E%E9%AA%8C/</loc>
-    <lastmod>2022-08-26</lastmod>
+    <lastmod>2022-08-28</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.2</priority>
   </url>
   
   <url>
     <loc>https://mugen-cmd.github.io/tags/%E6%8F%92%E4%BB%B6/</loc>
-    <lastmod>2022-08-26</lastmod>
+    <lastmod>2022-08-28</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.2</priority>
+  </url>
+  
+  <url>
+    <loc>https://mugen-cmd.github.io/tags/%E6%B5%8B%E8%AF%95/</loc>
+    <lastmod>2022-08-28</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.2</priority>
+  </url>
+  
+  <url>
+    <loc>https://mugen-cmd.github.io/tags/%E5%AE%9E%E9%AA%8C/</loc>
+    <lastmod>2022-08-28</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.2</priority>
   </url>
