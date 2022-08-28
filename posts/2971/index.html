@@ -496,14 +496,27 @@ Attribution-Noncommercial-No Derivatives署名-非商业使用-禁止演绎</p>
             
   <article id="comments" lazyload>
     
-  <div id="lv-container" data-id="city" data-uid="MTAyMC81MDQ1OC8yNjk0NQ">
-    <script type="text/javascript">
-      Fluid.utils.loadComments('#lv-container', function() {
-        Fluid.utils.createScript('https://cdn-city.livere.com/js/embed.dist.js');
+  <div id="valine"></div>
+  <script type="text/javascript">
+    Fluid.utils.loadComments('#valine', function() {
+      Fluid.utils.createScript('https://lib.baomitu.com/valine/1.4.17/Valine.min.js', function() {
+        var options = Object.assign(
+          {"appId":"r3Ew93k5W7Bbnl4uzeleeXu0-9Nh9j0Va","appKey":"mNUFo5LVFl4iiXrfRenJB6uy","path":"window.location.pathname","placeholder":null,"avatar":"retro","meta":["nick","mail","link"],"requiredFields":[],"pageSize":10,"lang":"zh-CN","highlight":true,"recordIP":true,"serverURLs":"","emojiCDN":null,"emojiMaps":null,"enableQQ":false},
+          {
+            el: "#valine",
+            path: window.location.pathname
+          }
+        )
+        new Valine(options);
+        Fluid.utils.waitElementVisible('#valine .vcontent', () => {
+          var imgSelector = '#valine .vcontent img:not(.vemoji)';
+          Fluid.plugins.imageCaption(imgSelector);
+          Fluid.plugins.fancyBox(imgSelector);
+        })
       });
-    </script>
-    <noscript>Please enable JavaScript to view the comments</noscript>
-  </div>
+    });
+  </script>
+  <noscript>Please enable JavaScript to view the comments</noscript>
 
 
   </article>
