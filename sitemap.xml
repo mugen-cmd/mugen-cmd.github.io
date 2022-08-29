@@ -2,6 +2,15 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   
   <url>
+    <loc>https://mugen-cmd.github.io/posts/63534/</loc>
+    
+    <lastmod>2022-08-29</lastmod>
+    
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  
+  <url>
     <loc>https://mugen-cmd.github.io/posts/37220/</loc>
     
     <lastmod>2022-08-26</lastmod>
@@ -12,15 +21,6 @@
   
   <url>
     <loc>https://mugen-cmd.github.io/posts/64480/</loc>
-    
-    <lastmod>2022-08-26</lastmod>
-    
-    <changefreq>monthly</changefreq>
-    <priority>0.6</priority>
-  </url>
-  
-  <url>
-    <loc>https://mugen-cmd.github.io/posts/63534/</loc>
     
     <lastmod>2022-08-26</lastmod>
     
@@ -92,14 +92,14 @@
 
   
   <url>
-    <loc>https://mugen-cmd.github.io/tags/cc%E5%8D%8F%E8%AE%AE/</loc>
+    <loc>https://mugen-cmd.github.io/tags/hexo/</loc>
     <lastmod>2022-08-29</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.2</priority>
   </url>
   
   <url>
-    <loc>https://mugen-cmd.github.io/tags/hexo/</loc>
+    <loc>https://mugen-cmd.github.io/tags/cc%E5%8D%8F%E8%AE%AE/</loc>
     <lastmod>2022-08-29</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.2</priority>
